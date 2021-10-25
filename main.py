@@ -8,6 +8,7 @@ import os
 
 
 app = Flask(__name__)
+Bootstrap(app)
 app.secret_key = os.environ.get('SECRET_KEY')
 
 #Create a Form Class
